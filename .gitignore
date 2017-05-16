@@ -11,8 +11,7 @@
 /public/assets
 /tags
 /tmp/*
-.idea/
-.idea/heroic.iml
-.idea/workspace.xml
+.idea/*
+
 
 
