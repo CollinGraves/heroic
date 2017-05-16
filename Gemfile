@@ -22,9 +22,6 @@ gem "title"
 gem "uglifier"
 
 gem "trailblazer-rails"
-gem "trailblazer-cells"
-gem "cells-hamlit"
-gem "cells-rails"
 
 group :development do
   gem "listen"
