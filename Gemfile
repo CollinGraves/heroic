@@ -22,6 +22,7 @@ gem "title"
 gem "uglifier"
 gem "devise"
 gem "pundit"
+gem "rolify"
 gem "activeadmin"
 gem "trailblazer-rails"
 
