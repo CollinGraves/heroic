@@ -25,6 +25,7 @@ gem "pundit"
 gem "rolify"
 gem "activeadmin"
 gem "trailblazer-rails"
+gem 'sitemap_generator'
 
 group :development do
   gem "listen"
