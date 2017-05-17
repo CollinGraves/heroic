@@ -1,0 +1,7 @@
+plan_a:
+  company: company_a
+  name: This plan belongs to Company A
+
+plan_b:
+  company: company_b
+  name: This plan belongs to Company B
