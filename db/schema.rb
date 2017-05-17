@@ -71,7 +71,7 @@ ActiveRecord::Schema.define(version: 20170517141350) do
   create_table "roles", force: :cascade do |t|
     t.string   "name"
     t.string   "resource_type"
-    t.integer  "resource_id"
+    t.uuid     "resource_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id", using: :btree
@@ -98,7 +98,7 @@ ActiveRecord::Schema.define(version: 20170517141350) do
   end
 
   create_table "users_roles", id: false, force: :cascade do |t|
-    t.integer "user_id"
+    t.uuid    "user_id"
     t.integer "role_id"
     t.index ["user_id", "role_id"], name: "index_users_roles_on_user_id_and_role_id", using: :btree
   end
