@@ -20,7 +20,7 @@ gem "sprockets", ">= 3.0.0"
 gem "suspenders"
 gem "title"
 gem "uglifier"
-
+gem "pundit"
 gem "trailblazer-rails"
 
 group :development do
