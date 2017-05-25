@@ -27,12 +27,13 @@ gem "activeadmin"
 gem "trailblazer-rails"
 gem "sitemap_generator"
 gem "whenever"
-gem "autoprefixer-rails"
 
 gem 'high_voltage'
-gem 'bourbon', '~> 5.0.0.beta.7'
-gem 'neat', '~> 2.0.0.beta.1'
-gem 'refills'
+gem 'bootstrap'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 group :development do
   gem "listen"
