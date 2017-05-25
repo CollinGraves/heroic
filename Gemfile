@@ -27,7 +27,7 @@ gem "activeadmin"
 gem "trailblazer-rails"
 gem "sitemap_generator"
 gem "whenever"
-
+gem "haml-rails", '~> 0.9.0'
 gem 'high_voltage'
 gem 'bootstrap'
 
